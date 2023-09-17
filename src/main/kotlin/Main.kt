@@ -17,7 +17,7 @@ class Main : Application() {
         root.bottom = StatusbarView(model)
         root.center = CoursesView(model)
         stage.scene = Scene(root, 800.0, 600.0)
-        stage.title = "CS349 - A1 My Mark Management - a368gupt"
+        stage.title = "Mark Manager"
 
         stage.show()
     }
